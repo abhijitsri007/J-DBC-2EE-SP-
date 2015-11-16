@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+ 	<!-- context parameters /app wide resources -->
+ 	<context-param>
+ 		<param-name>em</param-name>
+ 		<param-value>abhijitsri007@gmail.com</param-value>
+ 	</context-param>
+ 	<context-param>
+ 		<param-name>nm</param-name>
+ 		<param-value>abhi</param-value>
+ 	</context-param>
+ 	<context-param>
+ 		<param-name>pl</param-name>
+ 		<param-value>bnglr</param-value>
+ 	</context-param>
+ 	
+ 	<servlet>
+ 		<servlet-name>one</servlet-name>
+ 		<servlet-class>org.abhi.app.OneServ</servlet-class>
+ 		
+ 		<init-param>
+ 			<param-name>st</param-name>
+ 			<param-value>karnataka</param-value>
+ 		</init-param>
+ 	</servlet>
+ 	<servlet-mapping>
+ 		<servlet-name>one</servlet-name>
+ 		<url-pattern>/OneServ</url-pattern>
+ 	</servlet-mapping>
+</web-app>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
